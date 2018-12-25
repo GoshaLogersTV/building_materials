@@ -1,0 +1,38 @@
+.hr{
+	border-top:1px solid #dedede;
+	 margin: 10px 0px 20px 0px;
+}
+.upper-wrap{
+	margin-left: 6rem; 
+}
+
+.up-15{
+	margin-top: 15px;
+}
+.right-30{
+	position: relative;
+    left: 30px;
+}
+.panel-primary>.panel-white-blue{
+	color: white;
+	background-color: #337ab7d1;
+}
+.panel-primary{
+	border-color: #337ab7d1;
+}
+.pagination{
+	display: block;
+	margin-top: auto;
+	text-align: center;
+}
+.panel-heading:hover{
+	color: #009d97;
+}
+.panel-title{
+	font-size: 15px;
+}
+.alert-count-rows{
+	margin-bottom: 15px;
+	padding: 5px;
+	text-align: center;
+}

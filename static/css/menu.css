@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import "animate.css";
+
+body { 
+    background: #F2F2F2;
+}
+body, * { 
+    padding: 0;
+ margin: 0;
+}
+.nav { 
+    list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #222222;
+	display: inline-block;
+	height: 100vh;
+	position: fixed;
+	z-index: 1;
+}
+.nav li { 
+    cursor: pointer;
+ /*border-top: 1px solid #F2F2F2;
+ border-bottom: 1px solid #F2F2F2;
+*/ margin-bottom: -1px;
+ width: 60px;
+ height: 60px;
+ line-height: 60px;
+ font-size: 18px;
+ font-family: 'Roboto Slab', serif;
+ color: #ffffff;
+}
+.nav li div, .nav li i { 
+    position: absolute;
+ text-align: center;
+}
+.nav li div { 
+    margin-left: 60px;
+ text-align: center;
+ width: 160px;
+}
+.nav li i { 
+    line-height: 60px;
+ width: 60px;
+ z-index: 9;
+ background: #222222;
+}
+.nav li i.active { 
+    border-left: 2px solid #1e76c4;
+}
+.nav li div { 
+    display: none;
+ z-index: 1;
+ background: #5c8fbc;
+ /*#ed1c24;
+*/}
+
+.nav li:hover > div { 
+    display: inline-block;
+}
+.nav li:hover i { 
+    background: #5c8fbc;
+ /*#ed1c24;
+*/}
